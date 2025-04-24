@@ -8,7 +8,7 @@ class UserViewModel extends ChangeNotifier {
   final AuthService _authService = AuthService();
 
   UserModel? _currentUser;
-  Map<String, UserModel> _userCache = {};
+  final Map<String, UserModel> _userCache = {};
   bool _isLoading = false;
   String? _error;
 

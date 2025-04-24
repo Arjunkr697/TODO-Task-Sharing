@@ -8,10 +8,10 @@ class SharedUsersScreen extends StatefulWidget {
   final String taskTitle;
 
   const SharedUsersScreen({
-    Key? key, 
+    super.key, 
     required this.userIds,
     required this.taskTitle,
-  }) : super(key: key);
+  });
 
   @override
   _SharedUsersScreenState createState() => _SharedUsersScreenState();

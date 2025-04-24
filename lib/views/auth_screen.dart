@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 import '../viewmodels/task_view_model.dart';
 
 class AuthScreen extends StatefulWidget {
-  const AuthScreen({Key? key}) : super(key: key);
+  const AuthScreen({super.key});
 
   @override
   _AuthScreenState createState() => _AuthScreenState();

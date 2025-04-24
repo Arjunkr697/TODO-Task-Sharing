@@ -7,10 +7,10 @@ class TaskListView extends StatelessWidget {
   final bool isOwner;
 
   const TaskListView({
-    Key? key,
+    super.key,
     required this.tasks,
     required this.isOwner,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

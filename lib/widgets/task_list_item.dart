@@ -11,10 +11,10 @@ class EnhancedTaskListItem extends StatelessWidget {
   final bool isOwner;
 
   const EnhancedTaskListItem({
-    Key? key,
+    super.key,
     required this.task,
     required this.isOwner,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

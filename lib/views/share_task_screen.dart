@@ -6,9 +6,9 @@ class ShareTaskScreen extends StatefulWidget {
   final String taskId;
 
   const ShareTaskScreen({
-    Key? key,
+    super.key,
     required this.taskId,
-  }) : super(key: key);
+  });
 
   @override
   _ShareTaskScreenState createState() => _ShareTaskScreenState();
